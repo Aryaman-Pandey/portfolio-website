@@ -1,0 +1,101 @@
+body {
+    color: #ffffff;
+    border: none;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+.col-6 {
+    width: 50%;
+  }
+.progress {
+    align-items: flex-start;
+    margin-right: 10%;
+
+}
+.progress-bar {
+    color: white;
+}
+.name {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 30px;
+}
+
+.progress{
+    height: 17px;
+    background: rgba(0,0,0,0.1);
+    border-radius: 15px;
+    margin-bottom: 30px;
+    overflow: visible;
+    position: relative;
+}
+.progress .progress-bar{
+    border-radius: 15px;
+    box-shadow: none;
+    position: relative;
+    animation: animate-positive 2s;
+}
+.progress
+.progress{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 40px;
+    background: #fff;
+    border: 7px solid #1f75c4;
+    font-size:15px;
+    font-weight: 600;
+    color: #1f75c4;
+    position: absolute;
+    top: -17px;
+    right: -5px;
+}
+.progress{
+    right: auto;
+    left: -5px;
+}
+
+.course {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0;
+}
+
+.description {
+    font-style: italic;
+    margin-block-end: 0%;
+    margin-right: 0;
+    padding-right: 0%;
+    position: relative;
+}
+
+.list-group {
+    padding-top: 25px;
+}
+.list-group-item {
+    background-color: black;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.col-sm-12 h3{
+    font-size: 37px;
+    font-weight: 500;
+    margin-top: 80px;
+    margin-left: 0%;
+    margin-bottom: 50px;
+}
+@-webkit-keyframes animate-positive{
+    0%{ width: 0; }
+}
+@keyframes animate-positive{
+    0%{ width: 0; }
+
+}

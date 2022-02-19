@@ -1,0 +1,13 @@
+.header__title h1{
+    font-size: 57px;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-bottom: 50px;
+    align-items: flex-start;
+}
+.row {
+    align-items: center;
+    justify-content: center;
+}
+
